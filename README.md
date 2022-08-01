@@ -12,7 +12,7 @@ To mitigate the volality of the ProShares UltraPro S&amp;P 500 fund, I propose i
 One potential such indicator is short term, rapid downturn which will likely be followed by further losses. My work in the "Code" section will describe how I statistically verify and optimize this indicator.
 
 ## Trading Platform 
-The trading platform I will be using is Composer. This online trading platform allows users to construct simple automated indicators for executing trades. Since I am limited in the types of indicators I can use, I decided to verify and optimize a conditional indicator of the following form: "IF MAX DOWNTURN OVER x DAYS > y%". If this conditional is satisfied, the platform will automatically trade all shares of the ProShares UltraPro S&amp;P 500 fund to the aforementioned stable assets. In particular, it will invest in: 25% GLD, 25% TIP, 25% IEI, and 25% BSV.
+The trading platform I will be using is Composer. This online trading platform allows users to construct simple automated indicators for executing trades. Since I am limited in the types of indicators I can use, I decided to verify and optimize a conditional indicator of the following form: "IF MAX DRAWDOWN OVER x DAYS > y%". If this conditional is satisfied, the platform will automatically trade all shares of the ProShares UltraPro S&amp;P 500 fund to the aforementioned stable assets. In particular, it will invest in: 25% GLD, 25% TIP, 25% IEI, and 25% BSV.
 
 ## Code
 NEED TO COMPLETE 
